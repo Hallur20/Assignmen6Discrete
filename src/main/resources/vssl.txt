@@ -1,0 +1,14 @@
+DEF A: Integer
+DEF B: Integer
+DEF belowZero: Boolean
+
+LET A = 5;
+LET B = 4;
+
+IF(A < 0 && B < 0){
+    LET belowZero = true;
+    } ELSE {
+    LET belowZero = false;
+    };
+
+println("a is " + A + " and b is " + B + " and boolean is " + belowZero);
